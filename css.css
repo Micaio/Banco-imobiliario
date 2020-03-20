@@ -1,0 +1,150 @@
+@charset "UTF-8";
+	p {
+				text-align: justify;
+				text-indent: 50px;
+			}
+			body{
+			background-color: #dddddd;
+			color: rgba(0,0,0,1);
+			}
+			
+div#elias {
+	display: block;
+	margin: -20px auto 0px auto;
+	background-color: white;
+	box-shadow: 0px 0px  4px  black;
+	width: 1000px;
+}
+ /* figura lá*/
+ figure.mirela{
+	 position: relative;
+	 border : 8px solid white;
+	 box-shadow: 1px 1px 4px black;
+ }
+ 
+ 
+ figure.mirela img{
+	 width: 100%;
+	 height: 100%;
+ }
+ 
+ figure.mirela figcaption {
+	 opacity:0;
+	 position: absolute;
+	 top: 0px;
+	 background-color : rgba(0,0,0,.4);
+	 color: white;
+	 width: 100%;
+	 height: 100%;
+	 padding: 10px;
+	 box-sizing: border-box;
+	 transition: opacity 1s;
+ }
+ 
+ figure.mirela:hover figcaption{
+	 opacity: 1;
+	 
+	 
+ }
+ img#kl{
+	 position:absolute;
+	 top: 40px;
+	 left: 980px;
+ }
+ /*fim*/
+ /* menu*/
+nav#menu {
+	display: block;
+}
+ nav#menu ul {
+	 position: absolute;
+	 left: 595px;
+	 top: -10px;
+	 list-style: none;
+	 text-transform: uppercase;
+ }
+ 
+ nav#menu li{
+	 display: inline-block;
+	 background-color: #dddddd;
+	 margin: 2 px;
+	padding:  8px;
+	transition: background-color 1s;
+ }
+  nav#menu li: hover{
+	  background-color: #606060;
+	  
+  }
+ nav#menu h1{
+	 display: none;
+ }
+ nav#menu  a {
+	 color: black;
+	 text-decoration: none;
+	 
+ }
+ 
+ nav#menu a:hover {
+	 color: white;
+	 
+ }
+ /*  fim */
+ /* cabecalho*/
+ header#cabecalho {
+	 display: block;
+	 border-bottom: 1px solid #606060;
+	 
+	 
+ }
+ /*   cabe?alho */
+  div#elias {
+	  
+	  background-color:white;
+	  margin: -20px auto 0px auto;
+	  padding:8px;
+	 
+  }
+/* fim */
+section#corpo{
+	display: block;
+	float: left ;
+	width: 530px;
+	border-right: 1px  solid  #606060;
+	padding: 8px;
+}
+aside#lateral{
+	display: block;
+	float:right;
+	width: 440px;
+	padding: 4px;
+	background-color: #cecece;
+	box-shadow: 2px 2px 4px black;
+	margin-top: 10px;
+}
+aside#lateral h2{
+	background-color: #606060;
+	padding: 3px;
+	margin: 3px;
+	color: white;
+	
+}
+
+footer#ultima{
+	clear: both;
+	border-top: 1px solid #606060;
+	
+}
+footer#ultima p {
+	text-align: center;
+	
+}
+table#tabelaa {
+	border: 1px solid #606060;
+	
+}
+table#tabelaa td{
+	padding:10px;
+	border: 1px solid #606060;
+	text-align: center;
+	
+}
